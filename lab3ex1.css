@@ -1,0 +1,130 @@
+#container {
+    display: flex;
+    margin: 50px auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#head {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 40px;
+
+}
+
+#img1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 14px;
+}
+
+.btn {
+    background-color: rgb(26, 138, 119);
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.icon {
+    width: 20px;
+    color: darkgreen;
+}
+
+#bdy {
+    display: flex;
+    column-gap: 40px;
+}
+#img2{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 14px;
+
+}
+
+#bodyy{
+    width: 900px;
+    background-color: #087f5b;
+    display: flex;
+    column-gap: 80px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.img3{
+    width: 250px;
+    height: 200px;
+    /* border-radius: 20px; */
+}
+
+#bodyyy{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#hh{
+    padding-top: 40px;
+}
+
+#footer{
+    padding-top: 70px;
+    font-weight: 100;
+    font-size: small;
+}
+
+
+#pic {
+    display: flex;
+    margin: 0 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+#pic p{
+    font-size: 18px;
+}
+#pic1 {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    column-gap: 40px;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 0 16px 10px #f0f0f0;
+    border-radius: 20px;
+    overflow: hidden;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+}
+.card ul{
+    all: unset;
+    list-style: none;
+}
+.card ul li{
+    display: flex;
+    gap: 1rem;
+}
+.cardbody{
+
+    padding: 0 1rem;
+}
+
+.card h2{
+    margin: 0 1rem;
+}
